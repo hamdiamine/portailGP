@@ -1,0 +1,490 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\hkh\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'oracledb' ]
+2 info using npm@3.9.2
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData oracledb
+8 silly fetchNamedPackageData oracledb
+9 silly mapToRegistry name oracledb
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'oracledb',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'oracledb',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+14 verbose request uri https://registry.npmjs.org/oracledb
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 01:06:28
+17 verbose request id 38f9094fd9e46302
+18 verbose etag "AKOIHX8IDNU5JHFA69JRO2EFC"
+19 http request GET https://registry.npmjs.org/oracledb
+20 http 304 https://registry.npmjs.org/oracledb
+21 verbose headers { date: 'Tue, 30 Aug 2016 23:06:28 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"AKOIHX8IDNU5JHFA69JRO2EFC"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1472598388.000922,VS0,VE389',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 30 Aug 2016 23:06:28 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"AKOIHX8IDNU5JHFA69JRO2EFC"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lhr6334-LHR',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1472598388.000922,VS0,VE389',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/oracledb from cache
+24 verbose get saving oracledb to C:\Users\hkh\AppData\Roaming\npm-cache\registry.npmjs.org\oracledb\.cache.json
+25 verbose correctMkdir C:\Users\hkh\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule oracledb@1.11.0 checking installable status
+39 silly cache add args [ 'oracledb', null ]
+40 verbose cache add spec oracledb
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'oracledb',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'oracledb',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed oracledb@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for oracledb
+44 info addNameTag [ 'oracledb', 'latest' ]
+45 silly mapToRegistry name oracledb
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'oracledb',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'oracledb',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+50 verbose addNameTag registry:https://registry.npmjs.org/oracledb not in flight; fetching
+51 verbose get https://registry.npmjs.org/oracledb not expired, no request
+52 silly addNameTag next cb for oracledb with tag latest
+53 silly addNamed oracledb@1.11.0
+54 verbose addNamed "1.11.0" is a plain semver version for oracledb
+55 silly cache afterAdd oracledb@1.11.0
+56 verbose afterAdd C:\Users\hkh\AppData\Roaming\npm-cache\oracledb\1.11.0\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\hkh\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\hkh\AppData\Roaming\npm-cache\oracledb\1.11.0\package\package.json written
+59 silly loadAllDepsIntoIdealTree Finishing
+60 silly idealTree:prePrune portailGP
+60 silly idealTree:prePrune +-- bignumber.js@2.3.0
+60 silly idealTree:prePrune +-- core-util-is@1.0.2
+60 silly idealTree:prePrune +-- inherits@2.0.1
+60 silly idealTree:prePrune +-- isarray@0.0.1
+60 silly idealTree:prePrune +-- mysql@2.11.1
+60 silly idealTree:prePrune +-- nan@2.3.5
+60 silly idealTree:prePrune +-- oracle@0.3.9
+60 silly idealTree:prePrune +-- oracledb@1.11.0
+60 silly idealTree:prePrune +-- readable-stream@1.1.14
+60 silly idealTree:prePrune +-- sqlstring@2.0.1
+60 silly idealTree:prePrune `-- string_decoder@0.10.31
+61 silly loadIdealTree Finishing
+62 silly currentTree portailGP
+62 silly currentTree +-- bignumber.js@2.3.0
+62 silly currentTree +-- core-util-is@1.0.2
+62 silly currentTree +-- inherits@2.0.1
+62 silly currentTree +-- isarray@0.0.1
+62 silly currentTree +-- mysql@2.11.1
+62 silly currentTree +-- nan@2.3.5
+62 silly currentTree +-- oracle@0.3.9
+62 silly currentTree +-- oracledb
+62 silly currentTree +-- readable-stream@1.1.14
+62 silly currentTree +-- sqlstring@2.0.1
+62 silly currentTree `-- string_decoder@0.10.31
+63 silly idealTree portailGP
+63 silly idealTree +-- bignumber.js@2.3.0
+63 silly idealTree +-- core-util-is@1.0.2
+63 silly idealTree +-- inherits@2.0.1
+63 silly idealTree +-- isarray@0.0.1
+63 silly idealTree +-- mysql@2.11.1
+63 silly idealTree +-- nan@2.3.5
+63 silly idealTree +-- oracle@0.3.9
+63 silly idealTree +-- oracledb@1.11.0
+63 silly idealTree +-- readable-stream@1.1.14
+63 silly idealTree +-- sqlstring@2.0.1
+63 silly idealTree `-- string_decoder@0.10.31
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 3
+68 silly diffTrees update mysql@2.11.1
+69 silly diffTrees update oracle@0.3.9
+70 silly diffTrees update oracledb@1.11.0
+71 silly decomposeActions action count 24
+72 silly decomposeActions fetch mysql@2.11.1
+73 silly decomposeActions extract mysql@2.11.1
+74 silly decomposeActions test mysql@2.11.1
+75 silly decomposeActions preinstall mysql@2.11.1
+76 silly decomposeActions build mysql@2.11.1
+77 silly decomposeActions install mysql@2.11.1
+78 silly decomposeActions postinstall mysql@2.11.1
+79 silly decomposeActions finalize mysql@2.11.1
+80 silly decomposeActions fetch oracle@0.3.9
+81 silly decomposeActions extract oracle@0.3.9
+82 silly decomposeActions test oracle@0.3.9
+83 silly decomposeActions preinstall oracle@0.3.9
+84 silly decomposeActions build oracle@0.3.9
+85 silly decomposeActions install oracle@0.3.9
+86 silly decomposeActions postinstall oracle@0.3.9
+87 silly decomposeActions finalize oracle@0.3.9
+88 silly decomposeActions fetch oracledb@1.11.0
+89 silly decomposeActions extract oracledb@1.11.0
+90 silly decomposeActions test oracledb@1.11.0
+91 silly decomposeActions preinstall oracledb@1.11.0
+92 silly decomposeActions build oracledb@1.11.0
+93 silly decomposeActions install oracledb@1.11.0
+94 silly decomposeActions postinstall oracledb@1.11.0
+95 silly decomposeActions finalize oracledb@1.11.0
+96 silly executeActions Starting
+97 silly install executeActions
+98 silly doSerial global-install 0
+99 silly doParallel fetch 3
+100 verbose correctMkdir C:\Users\hkh\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+101 verbose lock using C:\Users\hkh\AppData\Roaming\npm-cache\_locks\staging-eba2fdc0c8e166b7.lock for D:\sources\portailGP\node_modules\.staging
+102 silly doParallel extract 3
+103 silly extract mysql@2.11.1
+104 silly extract oracle@0.3.9
+105 silly extract oracledb@1.11.0
+106 verbose unbuild node_modules\.staging\mysql-745a32f8
+107 verbose unbuild node_modules\.staging\oracle-07460ab7
+108 verbose unbuild node_modules\.staging\oracledb-c258bf20
+109 silly gentlyRm D:\sources\portailGP\node_modules\.staging\mysql-745a32f8 is being purged from base D:\sources\portailGP
+110 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\mysql-745a32f8
+111 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracle-07460ab7 is being purged from base D:\sources\portailGP
+112 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracle-07460ab7
+113 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20 is being purged from base D:\sources\portailGP
+114 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20
+115 verbose tar unpack C:\Users\hkh\AppData\Roaming\npm-cache\mysql\2.11.1\package.tgz
+116 verbose tar unpacking to D:\sources\portailGP\node_modules\.staging\mysql-745a32f8
+117 silly gentlyRm D:\sources\portailGP\node_modules\.staging\mysql-745a32f8 is being purged
+118 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\mysql-745a32f8
+119 verbose tar unpack C:\Users\hkh\AppData\Roaming\npm-cache\oracle\0.3.9\package.tgz
+120 verbose tar unpacking to D:\sources\portailGP\node_modules\.staging\oracle-07460ab7
+121 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracle-07460ab7 is being purged
+122 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracle-07460ab7
+123 verbose tar unpack C:\Users\hkh\AppData\Roaming\npm-cache\oracledb\1.11.0\package.tgz
+124 verbose tar unpacking to D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20
+125 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20 is being purged
+126 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20
+127 silly gunzTarPerm modes [ '777', '666' ]
+128 silly gunzTarPerm modes [ '777', '666' ]
+129 silly gunzTarPerm modes [ '777', '666' ]
+130 silly gunzTarPerm extractEntry package.json
+131 silly gunzTarPerm extractEntry package.json
+132 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+135 silly gunzTarPerm extractEntry index.js
+136 silly gunzTarPerm extractEntry Changes.md
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+141 silly gunzTarPerm extractEntry README.md
+142 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+143 silly gunzTarPerm extractEntry index.js
+144 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry License
+146 silly gunzTarPerm extractEntry LICENSE
+147 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+148 silly gunzTarPerm extractEntry index.js
+149 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry CHANGELOG.md
+151 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+152 silly gunzTarPerm extractEntry LICENSE.md
+153 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+154 silly gunzTarPerm extractEntry INSTALL.md
+155 silly gunzTarPerm modified mode [ 'INSTALL.md', 420, 438 ]
+156 silly gunzTarPerm extractEntry lib/oracle.js
+157 silly gunzTarPerm modified mode [ 'lib/oracle.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry binding.gyp
+159 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+160 silly gunzTarPerm extractEntry src/outParam.h
+161 silly gunzTarPerm modified mode [ 'src/outParam.h', 420, 438 ]
+162 silly gunzTarPerm extractEntry src/commitBaton.h
+163 silly gunzTarPerm modified mode [ 'src/commitBaton.h', 420, 438 ]
+164 silly gunzTarPerm extractEntry src/connection.h
+165 silly gunzTarPerm modified mode [ 'src/connection.h', 420, 438 ]
+166 silly gunzTarPerm extractEntry src/executeBaton.cpp
+167 silly gunzTarPerm modified mode [ 'src/executeBaton.cpp', 420, 438 ]
+168 silly gunzTarPerm extractEntry src/executeBaton.h
+169 silly gunzTarPerm modified mode [ 'src/executeBaton.h', 420, 438 ]
+170 silly gunzTarPerm extractEntry src/nodeOracleException.h
+171 silly gunzTarPerm modified mode [ 'src/nodeOracleException.h', 420, 438 ]
+172 silly gunzTarPerm extractEntry src/oracle_bindings.cpp
+173 silly gunzTarPerm modified mode [ 'src/oracle_bindings.cpp', 420, 438 ]
+174 silly gunzTarPerm extractEntry src/oracle_bindings.h
+175 silly gunzTarPerm modified mode [ 'src/oracle_bindings.h', 420, 438 ]
+176 silly gunzTarPerm extractEntry src/outParam.cpp
+177 silly gunzTarPerm modified mode [ 'src/outParam.cpp', 420, 438 ]
+178 silly gunzTarPerm extractEntry src/connection.cpp
+179 silly gunzTarPerm modified mode [ 'src/connection.cpp', 420, 438 ]
+180 silly gunzTarPerm extractEntry src/reader.cpp
+181 silly gunzTarPerm modified mode [ 'src/reader.cpp', 420, 438 ]
+182 silly gunzTarPerm extractEntry src/reader.h
+183 silly gunzTarPerm modified mode [ 'src/reader.h', 420, 438 ]
+184 silly gunzTarPerm extractEntry src/readerBaton.h
+185 silly gunzTarPerm modified mode [ 'src/readerBaton.h', 420, 438 ]
+186 silly gunzTarPerm extractEntry src/rollbackBaton.h
+187 silly gunzTarPerm modified mode [ 'src/rollbackBaton.h', 420, 438 ]
+188 silly gunzTarPerm extractEntry src/statement.cpp
+189 silly gunzTarPerm modified mode [ 'src/statement.cpp', 420, 438 ]
+190 silly gunzTarPerm extractEntry src/statement.h
+191 silly gunzTarPerm modified mode [ 'src/statement.h', 420, 438 ]
+192 silly gunzTarPerm extractEntry src/statementBaton.h
+193 silly gunzTarPerm modified mode [ 'src/statementBaton.h', 420, 438 ]
+194 silly gunzTarPerm extractEntry src/utils.h
+195 silly gunzTarPerm modified mode [ 'src/utils.h', 420, 438 ]
+196 silly gunzTarPerm extractEntry test/assocArrays.js
+197 silly gunzTarPerm modified mode [ 'test/assocArrays.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry test/integration.js
+199 silly gunzTarPerm modified mode [ 'test/integration.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry test/outparams.js
+201 silly gunzTarPerm modified mode [ 'test/outparams.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry test/prepare.js
+203 silly gunzTarPerm modified mode [ 'test/prepare.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry test/reader.js
+205 silly gunzTarPerm modified mode [ 'test/reader.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry tests-settings.json
+207 silly gunzTarPerm modified mode [ 'tests-settings.json', 420, 438 ]
+208 silly gunzTarPerm extractEntry binding.gyp
+209 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/connection.js
+211 silly gunzTarPerm modified mode [ 'lib/connection.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry Readme.md
+213 silly gunzTarPerm extractEntry lib/Connection.js
+214 silly gunzTarPerm extractEntry lib/ConnectionConfig.js
+215 silly gunzTarPerm extractEntry lib/Pool.js
+216 silly gunzTarPerm extractEntry lib/lob.js
+217 silly gunzTarPerm modified mode [ 'lib/lob.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry lib/oracledb.js
+219 silly gunzTarPerm modified mode [ 'lib/oracledb.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry lib/PoolCluster.js
+221 silly gunzTarPerm extractEntry lib/PoolConfig.js
+222 silly gunzTarPerm extractEntry lib/pool.js
+223 silly gunzTarPerm modified mode [ 'lib/pool.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry lib/querystream.js
+225 silly gunzTarPerm modified mode [ 'lib/querystream.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry lib/resultset.js
+227 silly gunzTarPerm modified mode [ 'lib/resultset.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry lib/util.js
+229 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry lib/PoolConnection.js
+231 silly gunzTarPerm extractEntry lib/PoolNamespace.js
+232 silly gunzTarPerm extractEntry lib/PoolSelector.js
+233 silly gunzTarPerm extractEntry src/dpi/include/dpi.h
+234 silly gunzTarPerm modified mode [ 'src/dpi/include/dpi.h', 420, 438 ]
+235 silly gunzTarPerm extractEntry lib/protocol/Auth.js
+236 silly gunzTarPerm extractEntry lib/protocol/PacketHeader.js
+237 silly gunzTarPerm extractEntry src/dpi/include/dpiCommon.h
+238 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiCommon.h', 420, 438 ]
+239 silly gunzTarPerm extractEntry src/dpi/include/dpiConn.h
+240 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiConn.h', 420, 438 ]
+241 silly gunzTarPerm extractEntry lib/protocol/PacketWriter.js
+242 silly gunzTarPerm extractEntry lib/protocol/Parser.js
+243 silly gunzTarPerm extractEntry src/dpi/include/dpiDateTimeArray.h
+244 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiDateTimeArray.h', 420, 438 ]
+245 silly gunzTarPerm extractEntry src/dpi/include/dpiEnv.h
+246 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiEnv.h', 420, 438 ]
+247 silly gunzTarPerm extractEntry lib/protocol/Protocol.js
+248 silly gunzTarPerm extractEntry lib/protocol/ResultSet.js
+249 silly gunzTarPerm extractEntry src/dpi/include/dpiException.h
+250 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiException.h', 420, 438 ]
+251 silly gunzTarPerm extractEntry src/dpi/include/dpiLob.h
+252 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiLob.h', 420, 438 ]
+253 silly gunzTarPerm extractEntry lib/protocol/SqlString.js
+254 silly gunzTarPerm extractEntry lib/protocol/constants/charsets.js
+255 silly gunzTarPerm extractEntry src/dpi/include/dpiPool.h
+256 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiPool.h', 420, 438 ]
+257 silly gunzTarPerm extractEntry src/dpi/include/dpiStmt.h
+258 silly gunzTarPerm modified mode [ 'src/dpi/include/dpiStmt.h', 420, 438 ]
+259 silly gunzTarPerm extractEntry lib/protocol/constants/client.js
+260 silly gunzTarPerm extractEntry lib/protocol/constants/errors.js
+261 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.cpp
+262 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiExceptionImpl.cpp', 420, 438 ]
+263 silly gunzTarPerm extractEntry src/dpi/src/dpiCommon.cpp
+264 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiCommon.cpp', 420, 438 ]
+265 silly gunzTarPerm extractEntry lib/protocol/constants/field_flags.js
+266 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.h
+267 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiConnImpl.h', 420, 438 ]
+268 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.cpp
+269 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiDateTimeArrayImpl.cpp', 420, 438 ]
+270 silly gunzTarPerm extractEntry lib/protocol/constants/server_status.js
+271 silly gunzTarPerm extractEntry lib/protocol/constants/ssl_profiles.js
+272 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.h
+273 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiDateTimeArrayImpl.h', 420, 438 ]
+274 silly gunzTarPerm extractEntry src/dpi/src/dpiEnv.cpp
+275 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnv.cpp', 420, 438 ]
+276 silly gunzTarPerm extractEntry lib/protocol/constants/types.js
+277 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.cpp
+278 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnvImpl.cpp', 420, 438 ]
+279 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.h
+280 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiEnvImpl.h', 420, 438 ]
+281 silly gunzTarPerm extractEntry lib/protocol/packets/ClientAuthenticationPacket.js
+282 silly gunzTarPerm extractEntry lib/protocol/packets/EofPacket.js
+283 silly gunzTarPerm extractEntry lib/protocol/packets/ErrorPacket.js
+284 silly gunzTarPerm extractEntry lib/protocol/packets/Field.js
+285 silly gunzTarPerm extractEntry src/dpi/src/dpiException.cpp
+286 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiException.cpp', 420, 438 ]
+287 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.cpp
+288 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiConnImpl.cpp', 420, 438 ]
+289 silly gunzTarPerm extractEntry lib/protocol/packets/EmptyPacket.js
+290 silly gunzTarPerm extractEntry lib/protocol/packets/HandshakeInitializationPacket.js
+291 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.h
+292 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiExceptionImpl.h', 420, 438 ]
+293 silly gunzTarPerm extractEntry src/dpi/src/dpiLob.cpp
+294 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiLob.cpp', 420, 438 ]
+295 silly gunzTarPerm extractEntry lib/protocol/packets/LocalDataFilePacket.js
+296 silly gunzTarPerm extractEntry lib/protocol/packets/OkPacket.js
+297 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.cpp
+298 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiPoolImpl.cpp', 420, 438 ]
+299 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.h
+300 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiPoolImpl.h', 420, 438 ]
+301 silly gunzTarPerm extractEntry lib/protocol/packets/OldPasswordPacket.js
+302 silly gunzTarPerm extractEntry lib/protocol/packets/ResultSetHeaderPacket.js
+303 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.cpp
+304 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiStmtImpl.cpp', 420, 438 ]
+305 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.h
+306 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiStmtImpl.h', 420, 438 ]
+307 silly gunzTarPerm extractEntry lib/protocol/packets/ComStatisticsPacket.js
+308 silly gunzTarPerm extractEntry lib/protocol/packets/RowDataPacket.js
+309 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.cpp
+310 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiUtils.cpp', 420, 438 ]
+311 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.h
+312 silly gunzTarPerm modified mode [ 'src/dpi/src/dpiUtils.h', 420, 438 ]
+313 silly gunzTarPerm extractEntry lib/protocol/packets/ComQuitPacket.js
+314 silly gunzTarPerm extractEntry lib/protocol/packets/SSLRequestPacket.js
+315 silly gunzTarPerm extractEntry src/njs/src/njsOracle.cpp
+316 silly gunzTarPerm modified mode [ 'src/njs/src/njsOracle.cpp', 420, 438 ]
+317 silly gunzTarPerm extractEntry src/njs/src/njsConnection.cpp
+318 silly gunzTarPerm modified mode [ 'src/njs/src/njsConnection.cpp', 420, 438 ]
+319 silly gunzTarPerm extractEntry lib/protocol/packets/ComQueryPacket.js
+320 silly gunzTarPerm extractEntry lib/protocol/packets/StatisticsPacket.js
+321 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.cpp
+322 silly gunzTarPerm modified mode [ 'src/njs/src/njsIntLob.cpp', 420, 438 ]
+323 silly gunzTarPerm extractEntry lib/protocol/packets/ComPingPacket.js
+324 silly gunzTarPerm extractEntry lib/protocol/packets/UseOldPasswordPacket.js
+325 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.h
+326 silly gunzTarPerm modified mode [ 'src/njs/src/njsIntLob.h', 420, 438 ]
+327 silly gunzTarPerm extractEntry lib/protocol/packets/ComChangeUserPacket.js
+328 silly gunzTarPerm extractEntry lib/protocol/packets/index.js
+329 silly gunzTarPerm extractEntry src/njs/src/njsMessages.cpp
+330 silly gunzTarPerm modified mode [ 'src/njs/src/njsMessages.cpp', 420, 438 ]
+331 silly gunzTarPerm extractEntry src/njs/src/njsMessages.h
+332 silly gunzTarPerm modified mode [ 'src/njs/src/njsMessages.h', 420, 438 ]
+333 silly gunzTarPerm extractEntry lib/protocol/packets/FieldPacket.js
+334 silly gunzTarPerm extractEntry lib/protocol/sequences/ChangeUser.js
+335 silly gunzTarPerm extractEntry lib/protocol/sequences/Handshake.js
+336 silly gunzTarPerm extractEntry src/njs/src/njsConnection.h
+337 silly gunzTarPerm modified mode [ 'src/njs/src/njsConnection.h', 420, 438 ]
+338 silly gunzTarPerm extractEntry src/njs/src/njsOracle.h
+339 silly gunzTarPerm modified mode [ 'src/njs/src/njsOracle.h', 420, 438 ]
+340 silly gunzTarPerm extractEntry lib/protocol/sequences/Ping.js
+341 silly gunzTarPerm extractEntry lib/protocol/sequences/Query.js
+342 silly gunzTarPerm extractEntry lib/protocol/sequences/Quit.js
+343 silly gunzTarPerm extractEntry lib/protocol/sequences/Sequence.js
+344 silly gunzTarPerm extractEntry lib/protocol/sequences/Statistics.js
+345 silly gunzTarPerm extractEntry lib/protocol/sequences/index.js
+346 silly gunzTarPerm extractEntry src/njs/src/njsPool.cpp
+347 silly gunzTarPerm modified mode [ 'src/njs/src/njsPool.cpp', 420, 438 ]
+348 silly gunzTarPerm extractEntry src/njs/src/njsPool.h
+349 silly gunzTarPerm modified mode [ 'src/njs/src/njsPool.h', 420, 438 ]
+350 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.cpp
+351 silly gunzTarPerm modified mode [ 'src/njs/src/njsResultSet.cpp', 420, 438 ]
+352 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.h
+353 silly gunzTarPerm modified mode [ 'src/njs/src/njsResultSet.h', 420, 438 ]
+354 silly gunzTarPerm extractEntry src/njs/src/njsUtils.h
+355 silly gunzTarPerm modified mode [ 'src/njs/src/njsUtils.h', 420, 438 ]
+356 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracle-07460ab7\node_modules is being purged
+357 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracle-07460ab7\node_modules
+358 silly gentlyRm D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20\node_modules is being purged
+359 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20\node_modules
+360 silly gentlyRm D:\sources\portailGP\node_modules\.staging\mysql-745a32f8\node_modules is being purged
+361 verbose gentlyRm don't care about contents; nuking D:\sources\portailGP\node_modules\.staging\mysql-745a32f8\node_modules
+362 silly doParallel preinstall 3
+363 silly preinstall mysql@2.11.1 D:\sources\portailGP\node_modules\.staging\mysql-745a32f8
+364 info lifecycle mysql@2.11.1~preinstall: mysql@2.11.1
+365 silly preinstall oracle@0.3.9 D:\sources\portailGP\node_modules\.staging\oracle-07460ab7
+366 info lifecycle oracle@0.3.9~preinstall: oracle@0.3.9
+367 silly preinstall oracledb@1.11.0 D:\sources\portailGP\node_modules\.staging\oracledb-c258bf20
+368 info lifecycle oracledb@1.11.0~preinstall: oracledb@1.11.0
+369 silly lifecycle mysql@2.11.1~preinstall: no script for preinstall, continuing
+370 silly lifecycle oracle@0.3.9~preinstall: no script for preinstall, continuing
+371 silly lifecycle oracledb@1.11.0~preinstall: no script for preinstall, continuing
+372 silly doReverseSerial remove 0
+373 silly doSerial move 0
+374 silly doSerial finalize 3
+375 silly finalize D:\sources\portailGP\node_modules\mysql
+376 silly finalize D:\sources\portailGP\node_modules\oracle
+377 silly finalize D:\sources\portailGP\node_modules\oracledb
+378 verbose unlock done using C:\Users\hkh\AppData\Roaming\npm-cache\_locks\staging-eba2fdc0c8e166b7.lock for D:\sources\portailGP\node_modules\.staging
+379 silly rollbackFailedOptional Starting
+380 silly rollbackFailedOptional Finishing
+381 silly runTopLevelLifecycles Starting
+382 silly runTopLevelLifecycles Finishing
+383 silly install printInstalled
+384 warn enoent ENOENT: no such file or directory, open 'D:\sources\portailGP\package.json'
+385 warn portailGP No description
+386 warn portailGP No repository field.
+387 warn portailGP No README data
+388 warn portailGP No license field.
+389 verbose stack Error: EPERM: operation not permitted, rename 'D:\sources\portailGP\node_modules\oracledb' -> 'D:\sources\portailGP\node_modules\.oracledb.DELETE'
+389 verbose stack     at moveAway (C:\Users\hkh\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:38:5)
+389 verbose stack     at destStatted (C:\Users\hkh\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:27:7)
+389 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+389 verbose stack
+389 verbose stack Error: EPERM: operation not permitted, rename 'D:\sources\portailGP\node_modules\oracledb' -> 'D:\sources\portailGP\node_modules\.oracledb.DELETE'
+389 verbose stack     at Error (native)
+390 verbose cwd D:\sources\portailGP
+391 error Windows_NT 10.0.10586
+392 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\hkh\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "oracledb"
+393 error node v4.5.0
+394 error npm  v3.9.2
+395 error path D:\sources\portailGP\node_modules\oracledb
+396 error code EPERM
+397 error errno -4048
+398 error syscall rename
+399 error Error: EPERM: operation not permitted, rename 'D:\sources\portailGP\node_modules\oracledb' -> 'D:\sources\portailGP\node_modules\.oracledb.DELETE'
+399 error     at moveAway (C:\Users\hkh\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:38:5)
+399 error     at destStatted (C:\Users\hkh\AppData\Roaming\npm\node_modules\npm\lib\install\action\finalize.js:27:7)
+399 error     at FSReqWrap.oncomplete (fs.js:82:15)
+399 error
+399 error Error: EPERM: operation not permitted, rename 'D:\sources\portailGP\node_modules\oracledb' -> 'D:\sources\portailGP\node_modules\.oracledb.DELETE'
+399 error     at Error (native)
+399 error  [Error: EPERM: operation not permitted, rename 'D:\sources\portailGP\node_modules\oracledb' -> 'D:\sources\portailGP\node_modules\.oracledb.DELETE']
+400 error Please try running this command again as root/Administrator.
+401 verbose exit [ -4048, true ]
